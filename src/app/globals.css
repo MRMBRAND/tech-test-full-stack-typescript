@@ -1,0 +1,29 @@
+:root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+}
+
+html {
+  color-scheme: dark;
+  margin: 20px 40px;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+button, select, input {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
